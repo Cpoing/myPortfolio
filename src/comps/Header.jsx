@@ -1,6 +1,6 @@
 import "../App.css";
-import "../../public/github.png";
-import "../../public/linkedin.png";
+import githubIcon from "../icons/github.png";
+import linkedinIcon from "../icons/linkedin.png";
 
 function Header() {
   const scrollToAboutMe = () => {
@@ -27,10 +27,10 @@ function Header() {
 
       <div className="heading-links">
         <a href="https://www.linkedin.com/in/ted-lee-/">
-          <img src="linkedin.png" alt="linkedin" />
+          <img src={linkedinIcon} alt="linkedin" />
         </a>
         <a href="https://github.com/Cpoing">
-          <img src="github.png" alt="github" />
+          <img src={githubIcon} alt="github" />
         </a>
       </div>
     </div>
