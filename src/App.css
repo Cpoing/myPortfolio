@@ -68,3 +68,36 @@ html {
   width: 100vw;
   background-color: #e0e1dd;
 }
+
+.AboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.AboutMe-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+}
+
+.AboutMe-divider {
+  border: 1px solid black;
+  height: auto;
+  margin: 0 20px;
+}
+
+.AboutMe-short ul {
+  list-style-type: none; /* This removes the bullet points */
+  padding-left: 0; /* Removes any default padding */
+  margin-left: 0; /* Removes any default margin */
+}
+
+.AboutMe-pfp {
+  width: 150px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  border-radius: 50%; /* This makes the image circular */
+}
