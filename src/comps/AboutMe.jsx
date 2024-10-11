@@ -18,7 +18,7 @@ function AboutMe() {
               <ul>
                 <li>- Software Engineering</li>
                 <li>- Full-stack development</li>
-                <li>- cybersecurity</li>
+                <li>- Cybersecurity</li>
                 <li>- Systems programming</li>
               </ul>
             </li>

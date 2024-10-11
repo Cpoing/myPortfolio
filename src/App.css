@@ -130,3 +130,45 @@ html {
 .AboutMe-text p {
   margin-bottom: 1.5rem;
 }
+
+.Technologies {
+  text-align: center;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.Technologies h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.Technologies-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  list-style-type: none;
+  padding: 0;
+}
+
+.Technologies-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.Technologies-item svg {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #007bff;
+}
+
+.Technologies-item span {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+}
