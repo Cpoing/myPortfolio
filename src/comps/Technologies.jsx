@@ -8,6 +8,7 @@ import {
   FaDocker,
   FaLinux,
   FaGithub,
+  FaGitAlt,
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -61,7 +62,7 @@ function Technologies() {
     { name: "Docker", icon: <FaDocker /> },
     { name: "Linux", icon: <FaLinux /> },
     { name: "Neovim", icon: <SiNeovim /> },
-    { name: "Git", icon: <FaGithub /> },
+    { name: "Git", icon: <FaGitAlt /> },
     { name: "GitHub", icon: <FaGithub /> },
     { name: "IntelliJ", icon: <DiIntellij /> },
     { name: "Figma", icon: <SiFigma /> },
