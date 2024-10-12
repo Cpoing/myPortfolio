@@ -3,6 +3,7 @@ import Header from "./comps/Header.jsx";
 import AboutMe from "./comps/AboutMe.jsx";
 import Technologies from "./comps/Technologies.jsx";
 import Projects from "./comps/Projects.jsx";
+import ProjectsNoImage from "./comps/ProjectsNoImage.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <AboutMe />
       <Technologies />
       <Projects />
+      <ProjectsNoImage />
     </div>
   );
 }

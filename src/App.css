@@ -53,10 +53,10 @@ html {
   margin-bottom: 20px;
 }
 .heading-links img {
-  width: 40px; /* Set the width of the images */
-  height: 40px; /* Set the height of the images */
-  object-fit: contain; /* Ensures the aspect ratio is maintained */
-  margin: 0 10px; /* Adds some space between the icons */
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin: 0 10px;
 }
 
 .heading {
@@ -184,7 +184,6 @@ html {
 
 .Projects h1 {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -193,10 +192,14 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 2rem;
+  position: relative;
+  min-height: 300px;
 }
 
 .Project-left .Project-content {
   order: 1;
+  text-align: left;
 }
 
 .Project-left .Project-image {
@@ -205,6 +208,7 @@ html {
 
 .Project-right .Project-content {
   order: 2;
+  text-align: left;
 }
 
 .Project-right .Project-image {
@@ -214,38 +218,94 @@ html {
 .Project-content {
   flex: 1;
   padding: 1rem;
-  text-align: left;
 }
 
 .Project-image {
   flex: 1;
-  padding: 1rem;
+  position: relative;
+  overflow: visible;
 }
 
 .Project-image img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  object-fit: cover;
+  transition:
+    0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  z-index: 2;
 }
 
-h3 {
-  font-size: 1.8rem;
-  color: #333;
+.Project-image:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: auto;
+  z-index: 3;
 }
 
-p {
-  font-size: 1.1rem;
-  color: #666;
+.Project-content h3 {
+  display: flex;
+  align-items: center;
 }
 
-@media (max-width: 768px) {
-  .Project {
-    flex-direction: column;
-  }
+.Project-content a {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.ProjectsNoImage {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1200px;
 
-  .Project-content,
-  .Project-image {
-    order: unset;
-    text-align: center;
-  }
+  margin: auto;
+  padding: 2rem;
+}
+
+.ProjectNoImage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.ProjectNoImage-left {
+  flex-direction: row;
+}
+
+.ProjectNoImage-right {
+  flex-direction: row-reverse;
+}
+
+.ProjectNoImage-content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProjectNoImage-content h4 {
+  padding-right: 20px;
+}
+
+.ProjectNoImage-content p {
+  font-size: 0.8em;
+}
+
+.ProjectNoImage-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  max-width: 1200px;
+  min-width: 300px;
+}
+.ProjectNoImage-content a {
+  text-decoration: none;
 }
