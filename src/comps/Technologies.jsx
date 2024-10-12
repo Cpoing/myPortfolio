@@ -71,7 +71,8 @@ function Technologies() {
 
   return (
     <div className="Technologies">
-      <h2>Programming Languages</h2>
+      <h1>Technologies</h1>
+      <h3>Programming Languages</h3>
       <ul className="Technologies-list">
         {techList.map((tech, index) => (
           <li key={index} className="Technologies-item">
@@ -81,7 +82,7 @@ function Technologies() {
         ))}
       </ul>
 
-      <h2>Web Development</h2>
+      <h3>Web Development</h3>
       <ul className="Technologies-list">
         {webDevList.map((tech, index) => (
           <li key={index} className="Technologies-item">
@@ -91,7 +92,7 @@ function Technologies() {
         ))}
       </ul>
 
-      <h2>Developer Tools</h2>
+      <h3>Developer Tools</h3>
       <ul className="Technologies-list">
         {devToolsList.map((tech, index) => (
           <li key={index} className="Technologies-item">
