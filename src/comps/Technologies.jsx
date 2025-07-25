@@ -70,7 +70,7 @@ function Technologies() {
   ];
 
   return (
-    <div className="Technologies">
+    <div id="technologies" className="Technologies">
       <h1>Technologies</h1>
       <h3>Programming Languages</h3>
       <ul className="Technologies-list">

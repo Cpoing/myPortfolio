@@ -27,7 +27,7 @@ function EmailMe() {
   };
 
   return (
-    <div className="email-form-container">
+    <div id="email-form" className="email-form-container">
       <h1>Contact</h1>
       <p className="remark">Leave me a message! 👇</p>
       {isSent && <p className="success-message">Message sent successfully!</p>}

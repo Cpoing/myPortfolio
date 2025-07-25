@@ -409,3 +409,139 @@ button:hover {
   font-size: 0.95rem;
   color: #333;
 }
+
+.Goals {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-family: "Fira Code", monospace;
+}
+
+.Goals h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.Goals section {
+  margin-bottom: 2.5rem;
+  padding: 1rem;
+  border-left: 4px solid #007bff;
+  background-color: #ffffff;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.Goals section:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+}
+
+.Goals h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.Goals p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+.Goals ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  color: #555;
+}
+
+.Goals ul li {
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+}
+
+@media screen and (max-width: 768px) {
+  .Goals {
+    padding: 2rem 1rem;
+  }
+
+  .Goals h2 {
+    font-size: 2rem;
+  }
+
+  .Goals h3 {
+    font-size: 1.4rem;
+  }
+}
+
+.nav-buttons {
+  position: absolute;
+  top: 20px;
+  right: 120px; /* adjust based on Goals button */
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.nav-btn {
+  font-family: "Fira Code", monospace;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  text-decoration: underline;
+  color: #000;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.ProjectNoImage-name a {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.ProjectNoImage-name a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.ProjectNoImage-content p {
+  font-size: 0.95rem;
+  color: #444;
+  margin-left: 10px;
+  line-height: 1.6;
+}
+
+#career h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#career section {
+  padding: 1rem;
+  border-left: 4px solid #007bff;
+  background-color: #fafafa;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+  transition: box-shadow 0.3s ease;
+}
+
+#career section:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

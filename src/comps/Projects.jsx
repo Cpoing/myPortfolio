@@ -31,7 +31,7 @@ const projects = [
 
 function Projects() {
   return (
-    <div className="Projects">
+    <div id="projects" className="Projects">
       <h1>Projects</h1>
       {projects.map((project, index) => (
         <div

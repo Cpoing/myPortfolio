@@ -23,7 +23,7 @@ const projectsNoImage = [
 
 function ProjectsNoImage() {
   return (
-    <div className="ProjectsNoImage">
+    <div id="projects-no-image" className="ProjectsNoImage">
       {projectsNoImage.map((project, index) => (
         <div
           key={index}
