@@ -9,6 +9,7 @@ import ProjectsNoImage from "./comps/ProjectsNoImage.jsx";
 import EmailMe from "./comps/EmailMe.jsx";
 import Goals from "./comps/Goals.jsx";
 import Career from "./comps/Career.jsx";
+import WhyMe from "./comps/WhyMe.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <>
               <Header />
               <AboutMe />
+              <WhyMe />
               <Technologies />
               <Projects />
               <ProjectsNoImage />

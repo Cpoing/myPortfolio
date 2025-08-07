@@ -52,6 +52,13 @@ function AboutMe() {
             push my development skills and am excited about using my knowledge
             to build impactful, secure applications.
           </p>
+          <p>
+            Over the past three years, I’ve evolved from writing simple scripts
+            in Python to architecting secure, full-stack web apps. Each project
+            has sharpened my focus on both performance and protection, and I’m
+            now driven to build tools that empower users while safeguarding
+            their data.
+          </p>
         </div>
       </div>
     </div>
